@@ -9,7 +9,7 @@ Mishra"""
 # print(name1)
 # print(name3)
 
-# Indexing
+# Indexing  
 print(len(name))
 print(name[2:4])
 print(name[2:])
@@ -23,6 +23,3 @@ print(name[0:5:2])
 a = "abcdefghijklmnopqrstuvwxyz"
 print(a[0:25:2])
 print(a[0:25:])
-
-
-# String Function
