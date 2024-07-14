@@ -20,3 +20,9 @@ print(name[1:5])
 
 # Skiping
 print(name[0:5:2])
+a = "abcdefghijklmnopqrstuvwxyz"
+print(a[0:25:2])
+print(a[0:25:])
+
+
+# String Function
