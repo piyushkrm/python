@@ -1,28 +1,33 @@
-# """Question 1 : Write a program to find the greatest of four numbers entered by the user."""
-# print("Enter the numbers")
-# listt = []
-# for i in range(4):
-#     num = int(input("Enter the number : "))
-#     listt.append(num)
+"""Question 1 : Write a program to find the greatest of four numbers entered by the user."""
+print("Enter the numbers")
+listt = []
+for i in range(4):
+    num = int(input("Enter the number : "))
+    listt.append(num)
 
-# listt.sort()
-# print(listt[len(listt)-1])
+print(max(listt))
+
+
+# Another approach
+listt.sort()
+print(listt[len(listt)-1])
+
 
 
 # Other methods
-# a = int(input("Enter the number 1 : "))
-# b = int(input("Enter the number 2 : "))
-# c = int(input("Enter the number 3 : "))
-# d = int(input("Enter the number 4 : "))
+a = int(input("Enter the number 1 : "))
+b = int(input("Enter the number 2 : "))
+c = int(input("Enter the number 3 : "))
+d = int(input("Enter the number 4 : "))
 
-# if(a > b and a > c and a > d):
-#     print(a, "Is greatest of all")
-# elif(b > a and b > c and b > d):
-#     print(b, "Is greatest of all")
-# elif(c > a and c > b and c > d):
-#     print(c, "Is greatest of all")
-# else:
-#     print(d, "Is greatest of all")
+if(a > b and a > c and a > d):
+    print(a, "Is greatest of all")
+elif(b > a and b > c and b > d):
+    print(b, "Is greatest of all")
+elif(c > a and c > b and c > d):
+    print(c, "Is greatest of all")
+else:
+    print(d, "Is greatest of all")
 
 
 # Another method
