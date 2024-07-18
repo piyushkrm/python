@@ -1,7 +1,7 @@
 '''Wrte a program to read the text from a given file 'poems.txt' and find out whether it
 contains the word 'twinkle'.'''
 
-f = open("/workspaces/python/Chapter9_PS/twinkel.txt")
+f = open("/workspaces/python/Chapter9_PS/1_twinkel.txt")
 content = f.read()
 rd = content.lower()
 if "twinkle" in content:
