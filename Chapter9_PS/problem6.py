@@ -1,6 +1,6 @@
 '''Write a program to mine a log file and find out whether it contains 'python'.'''
 
-with open("/workspaces/python/6_python.txt") as f:
+with open("/workspaces/python/Chapter9_PS/6_python.txt") as f:
     content = f.read()
 
 
