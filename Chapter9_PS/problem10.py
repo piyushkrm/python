@@ -4,4 +4,4 @@
 with open("/workspaces/python/Chapter9_PS/10_wipeOut.txt", "w") as f:
     f.write("")
 
-#  remove text from "10_wipeOut.txt" file
+#  remove text from "10_wipeOut.txt" filegit
